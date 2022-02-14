@@ -22,3 +22,7 @@
 ## Session 25 - Introdcution to high performance computing clusters
 
 ## Session 26 - Introdcution to high performance programming approaches
+
+
+<p style="text-align:center;"> <img src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg" alt="CC"> </p>
+
