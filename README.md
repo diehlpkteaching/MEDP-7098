@@ -1,4 +1,3 @@
-# MEDP-7098
 
 ## Session I - Introduction to Linux
 
