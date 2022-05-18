@@ -14663,8 +14663,8 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Session-I---Introduction-to-Linux">Session I - Introduction to Linux<a class="anchor-link" href="#Session-I---Introduction-to-Linux">&#182;</a></h1><h2 id="Topics">Topics<a class="anchor-link" href="#Topics">&#182;</a></h2><ol>
 <li>Bash </li>
-<li>Editing files in the Bash</li>
 <li>Bash commands</li>
+<li>Editing files in the Bash</li>
 <li>Bash programming</li>
 </ol>
 
@@ -14680,7 +14680,7 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Why-Linux?">Why Linux?<a class="anchor-link" href="#Why-Linux?">&#182;</a></h2><p>Excellent question!</p>
 <p>Let us have a look at the <a href="https://www.top500.org/">Top500</a>, the list with the fastes supercomputer in the world.</p>
-<p>Here <strong>none</strong> of the 500 supercomputer runs on Windows or MacOS.</p>
+<p>Here <strong>none</strong> of the 500 supercomputer runs on Windows or macOS.</p>
 <p>The <a href="http://www.hpc.lsu.edu/resources/hpc/index.php">supercomputers</a> at LSU run all on Linux.</p>
 <p>So if you ant to run large scale simulations, you need to use Linux and Bash to compile your code, move files, and run the simulations!</p>
 
@@ -14699,7 +14699,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14707,7 +14707,7 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Definitions">Definitions<a class="anchor-link" href="#Definitions">&#182;</a></h3><p><em>Bash</em></p>
-<p>This is the command language interpreter, which is widely used on various operating systems and a default on most GNU/Linux systems.</p>
+<p>This is the command language interpreter, which is widely used on various operating systems and a default on most GNU/Linux systems. The name is an acronym for the ‘<strong>B</strong>ourne-<strong>A</strong>gain <strong>SH</strong>ell’.</p>
 <p><em>Shell</em></p>
 <p>This is the macro processort which allows the execution of bash commands.</p>
 <p><em>Scripting</em></p>
@@ -14716,12 +14716,247 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Command-shells">Command shells<a class="anchor-link" href="#Command-shells">&#182;</a></h3><p>On the operating system, you open a terminal window and inside this window the shell is running. You will type the bash commands there interactively.</p>
+<p><img src="bash.png" alt="Bash" style="width:500px"></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell%29">bash</a>: Default on GNU\Linux and macOS</li>
+<li><a href="https://github.com/fish-shell/fish-shell">fish</a>: Nice features by default, without doing configuration.</li>
+</ul>
+<p>You can install Windows Subsystem for Linux (<a href="https://docs.microsoft.com/en-us/windows/wsl/">WSL</a>) on Windows and run a GNU/Linux environment.</p>
+<p>However, on most of the supercomputers the bash shell is the default.</p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Bash-commands">Bash commands<a class="anchor-link" href="#Bash-commands">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>date
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Wed May 18 04:05:36 PM CDT 2022
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cal
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>      May 2022      
+Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 <span class="ansi-default-inverse-fg ansi-default-inverse-bg">18</span> 19 20 21
+22 23 24 25 26 27 28
+29 30 31            
+                    
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pwd
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>/home/diehlpk/git/courses/MEDP-7098/1-intro-linux
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Let-us-have-a-look-at-bash-commands">Let us have a look at bash commands<a class="anchor-link" href="#Let-us-have-a-look-at-bash-commands">&#182;</a></h3><p>First, let us check how many bash commands are on my computer</p>
+
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span>%%bash 
+
+<span class="nb">compgen</span> -bakc<span class="p">|</span> wc -l
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>6644
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Oh, we will not look into over 6000 bash commands today. Better, we stick with the 16 widely used ones :)</p>
+
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="ls">ls<a class="anchor-link" href="#ls">&#182;</a></h3><p>The command <code>ls</code> lists the files in the current directory, excluding the hidden files.</p>
+<ul>
+<li><code>ls -a</code> lists all the files in the current directory</li>
+<li><code>ls -l</code> lists the files, file size, owner, group, and date</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls
@@ -14755,15 +14990,15 @@ div.jp-OutputPrompt {
 
 </div>
 
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>tree
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls -a
 </pre></div>
 
      </div>
@@ -14785,12 +15020,7 @@ div.jp-OutputPrompt {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><span class="ansi-blue-intense-fg ansi-bold">.</span>
-├── <span class="ansi-red-intense-fg ansi-black-bg ansi-bold">bash.png</span> -&gt; docs/bash.png
-├── Session1.ipynb
-└── Session1.slides.html
-
-0 directories, 3 files
+<pre><span class="ansi-blue-intense-fg ansi-bold">.</span>/  <span class="ansi-blue-intense-fg ansi-bold">..</span>/  <span class="ansi-red-intense-fg ansi-black-bg ansi-bold">bash.png</span>@  <span class="ansi-blue-intense-fg ansi-bold">.ipynb_checkpoints</span>/  Session1.ipynb  Session1.slides.html
 </pre>
 </div>
 </div>
@@ -14799,15 +15029,15 @@ div.jp-OutputPrompt {
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls -l
 </pre></div>
 
      </div>
@@ -14815,7 +15045,107 @@ div.jp-OutputPrompt {
 </div>
 </div>
 
-</div></section></section>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>total 576
+lrwxrwxrwx. 1 diehlpk diehlpk     13 May 18 15:26 <span class="ansi-red-intense-fg ansi-black-bg ansi-bold">bash.png</span> -&gt; <span class="ansi-white-intense-fg ansi-red-bg ansi-bold">docs/bash.png</span>
+-rw-r--r--. 1 diehlpk diehlpk   7712 May 18 16:26 Session1.ipynb
+-rw-r--r--. 1 diehlpk diehlpk 580133 May 18 12:55 Session1.slides.html
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="tree">tree<a class="anchor-link" href="#tree">&#182;</a></h3><p>The command <code>tree</code> lists all files in the current directory formated as a tree.</p>
+
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>tree ..
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><span class="ansi-blue-intense-fg ansi-bold">..</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">1-intro-linux</span>
+│   ├── <span class="ansi-red-intense-fg ansi-black-bg ansi-bold">bash.png</span> -&gt; docs/bash.png
+│   ├── Session1.ipynb
+│   └── Session1.slides.html
+├── <span class="ansi-blue-intense-fg ansi-bold">24-theory-hpc</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">25-intro-cluster</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">26-intor-hpc-approaches</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">2-intro-python</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">3-examples-python</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">6-intro-cpp</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">7-example-cpp</span>
+├── <span class="ansi-blue-intense-fg ansi-bold">docs</span>
+│   ├── bash.png
+│   ├── index,html
+│   ├── index.html
+│   ├── pandoc.css
+│   └── Session1.slides.html
+├── <span class="ansi-green-intense-fg ansi-bold">generate.sh</span>
+├── index.md
+├── LICENSE
+└── README.md
+
+9 directories, 12 files
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></div></section></section>
 </div>
 </div>
 </body>
