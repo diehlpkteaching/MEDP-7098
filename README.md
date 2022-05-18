@@ -1,8 +1,15 @@
 
 ## Session I - Introduction to Linux
 
+Topics:
+
+* Bash  
 * Bash commands
-* bash scripts
+* Bash scripts
+
+Material:
+
+* [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session1.slides.html)
 
 ### References
 
