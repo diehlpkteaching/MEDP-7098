@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 exec < ../data.csv
 read header
