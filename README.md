@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diehlpkteaching/MEDP-7098/HEAD)
 
 ## Session I - Introduction to Linux
 
