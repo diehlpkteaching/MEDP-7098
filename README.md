@@ -18,7 +18,8 @@ Material:
 
 ## Session 2 - Introduction to Python
 
-*  [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
+*  [Slides 1](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
+*  [Slides 2](https://diehlpkteaching.github.io/MEDP-7098/Session3.slides.html)
 
 ## Session 3 - Practical programming with Python
 
