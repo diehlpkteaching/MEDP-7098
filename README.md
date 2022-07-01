@@ -18,6 +18,8 @@ Material:
 
 ## Session 2 - Introduction to Python
 
+*  [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
+
 ## Session 3 - Practical programming with Python
 
 ## Session 6 - Introcution to C++
