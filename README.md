@@ -11,6 +11,7 @@ Topics:
 Material:
 
 * [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session1.slides.html)
+* [Exercise](https://github.com/diehlpkteaching/MEDP-7098/blob/main/1-intro-linux/Exercise1.ipynb)
 
 ### References
 
@@ -19,10 +20,12 @@ Material:
 
 ## Session 2 - Introduction to Python
 
-*  [Slides 1](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
-*  [Slides 2](https://diehlpkteaching.github.io/MEDP-7098/Session3.slides.html)
+* [Slides 1](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
+* [Exercise](https://github.com/diehlpkteaching/MEDP-7098/blob/main/2-intro-python/Exercise2.ipynb)
 
 ## Session 3 - Practical programming with Python
+
+*  [Slides 2](https://diehlpkteaching.github.io/MEDP-7098/Session3.slides.html)
 
 ## Session 6 - Introcution to C++
 
