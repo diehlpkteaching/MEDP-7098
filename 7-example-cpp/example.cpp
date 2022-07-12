@@ -5,7 +5,6 @@
 
 std::pair<std::vector<std::vector<std::string>>,std::string> readCSV(std::string file_name){
 
-// Pointer to the file
     std::fstream fin;
 
     fin.open(file_name, std::ios::in);
@@ -75,14 +74,14 @@ void writeCSV(std::string file_name, std::string header, std::vector<std::vector
 
 int main(void){
 
-    // Read the file
     auto result = readCSV("../data.csv");
 
     auto content = std::get<0>(result);
 
-    for ( auto row : content )
+    for ( auto &row : content )
     {
-        row[row.size()-1] = (std::stod(row[row.size()-1])-32) * 5 / 9;
+        row.insert(row.end(),std::to_string((std::stod(row[row.size()-1])-32) * 5 / 9));
+
     }
     writeCSV("data_celcius.csv",std::get<1>(result),content);
 
