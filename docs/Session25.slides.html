@@ -14665,7 +14665,7 @@ div.jp-OutputPrompt {
 <li>ssh to connect to the cluster</li>
 <li>scp to copy data from and to the cluster</li>
 <li>module files to load software</li>
-<li>CMake to build code and libaries</li>
+<li>CMake to build code and libraries</li>
 <li>slurm to start jobs</li>
 </ul>
 
@@ -14679,11 +14679,11 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Secure-Shell-oder-SSH">Secure Shell oder SSH<a class="anchor-link" href="#Secure-Shell-oder-SSH">&#182;</a></h2><p>We use the command <code>ssh</code> to connect to the login nodes of the cluster using the internet. After the authentication, we will get a bash on the cluster.</p>
+<h2 id="Secure-Shell-or-SSH">Secure Shell or SSH<a class="anchor-link" href="#Secure-Shell-or-SSH">&#182;</a></h2><p>We use the command <code>ssh</code> to connect to the login nodes of the cluster using the internet. After the authentication, we will get a bash on the cluster.</p>
 <ul>
 <li>ssh user@cluster<ul>
 <li>user is your username on the cluster and not the one on your local device</li>
-<li>cluster is the url to the cluster</li>
+<li>cluster is the URL to the cluster</li>
 </ul>
 </li>
 </ul>
@@ -14712,11 +14712,11 @@ Enter passphrase <span class="k">for</span> key <span class="s1">&#39;/Users/die
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="ssh-keys">ssh keys<a class="anchor-link" href="#ssh-keys">&#182;</a></h3><p>On modern clusters password authentification is not used any more due to less security. Instead ssh keys are used.<br>
+<h3 id="ssh-keys">ssh keys<a class="anchor-link" href="#ssh-keys">&#182;</a></h3><p>On modern clusters password authentication is not used any more due to less security. Instead ssh keys are used.<br>
 We use the command <code>ssh-kyegen</code> to generate two keys:</p>
 <ul>
-<li>Public key to share with the cluster admistrators</li>
-<li>Private key for your own usage. You need thios private key instead of the password to conenct to the login node.</li>
+<li>Public key to share with the cluster administrators</li>
+<li>Private key for your own usage. You need this private key instead of the password to connect to the login node.</li>
 </ul>
 
 </div>
@@ -14817,7 +14817,7 @@ Currently Loaded Modules:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="CMake-to-build-libraries-or-software">CMake to build libraries or software<a class="anchor-link" href="#CMake-to-build-libraries-or-software">&#182;</a></h2><p><a href="https://cmake.org/">CMake</a> is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.</p>
+<h2 id="CMake-to-build-libraries-or-software">CMake to build libraries or software<a class="anchor-link" href="#CMake-to-build-libraries-or-software">&#182;</a></h2><p><a href="https://cmake.org/">CMake</a> is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspace that can be used in the compiler environment of your choice.</p>
 <ul>
 <li>CMake is used by 55% of open source projects as the build system. </li>
 <li>Many academic codes use CMake to be build, e.g. lammps, gromacs, astrophysics code, ...</li>
@@ -14870,13 +14870,13 @@ make
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Running-jobs-on-clusters">Running jobs on clusters<a class="anchor-link" href="#Running-jobs-on-clusters">&#182;</a></h2><p>A common work load maanager for clusters is Simple Linux Utility for Resource Management or slurm. Slurm distribiutes the jobs from users equally and fair so all users of the resources get some share of the computational time. Depending on the cluster there are other options, however, the LSU clusters use slurm. Therefore, we will look into this tool.</p>
+<h2 id="Running-jobs-on-clusters">Running jobs on clusters<a class="anchor-link" href="#Running-jobs-on-clusters">&#182;</a></h2><p>A common work load manager for clusters is Simple Linux Utility for Resource Management or slurm. Slurm distributes the jobs from users equally and fair so all users of the resources get some share of the computational time. Depending on the cluster there are other options, however, the LSU clusters use slurm. Therefore, we will look into this tool.</p>
 <p>Terminology:</p>
 <ul>
-<li>Job: A file subitted by the user with some informaiton, e.g. time, memory usage, amount of nodes.</li>
+<li>Job: A file submitted by the user with some information, e.g. time, memory usage, amount of nodes.</li>
 <li>Node: One computer within the cluster. The largest cluster has 178k nodes.</li>
 <li>Queue: Wait list where to submit jobs</li>
-<li>Accounting: Amount of node hours a user got with the allocaiton.</li>
+<li>Accounting: Amount of node hours a user got with the allocation.</li>
 </ul>
 
 </div>

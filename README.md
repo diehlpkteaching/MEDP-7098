@@ -27,7 +27,7 @@ Material:
 
 *  [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session3.slides.html)
 
-## Session 6 - Introcution to C++
+## Session 6 - Introduction to C++
 
 * [Slides I](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/lecture1-slides.pdf)
 * [Slides II](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/lecture2-slides.pdf)
@@ -36,7 +36,7 @@ Material:
 
 ## Session 7 - Practical programming with C++
 
-## Session 25 - Introdcution to high performance computing clusters
+## Session 25 - Introduction to high performance computing clusters
 
 * [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session25.slides.html#/)
 * [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session26.slides.html#/)
