@@ -20,22 +20,26 @@ Material:
 
 ## Session 2 - Introduction to Python
 
-* [Slides 1](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
+* [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session2.slides.html)
 * [Exercise](https://github.com/diehlpkteaching/MEDP-7098/blob/main/2-intro-python/Exercise2.ipynb)
 
 ## Session 3 - Practical programming with Python
 
-*  [Slides 2](https://diehlpkteaching.github.io/MEDP-7098/Session3.slides.html)
+*  [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session3.slides.html)
 
 ## Session 6 - Introcution to C++
 
-## Session 7 - Practical programming with C++
+* [Slides I](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/lecture1-slides.pdf)
+* [Slides II](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/lecture2-slides.pdf)
+* [Parallel algorithms](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/lecture6-slides.pdf)
+* [Asynchronous Programming](https://www.cct.lsu.edu/~pdiehl/teaching/2021/4997/lecture7-slides.pdf)
 
-## Session 24 - Introduction to theory of high performance computing 
+## Session 7 - Practical programming with C++
 
 ## Session 25 - Introdcution to high performance computing clusters
 
-## Session 26 - Introdcution to high performance programming approaches
+* [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session25.slides.html#/)
+* [Slides](https://diehlpkteaching.github.io/MEDP-7098/Session26.slides.html#/)
 
 
 <p style="text-align:center;"> <img src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg" alt="CC"> </p>
