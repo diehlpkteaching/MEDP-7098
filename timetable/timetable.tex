@@ -1,0 +1,64 @@
+%Timetable
+%Copyright (C) 2019  Patrick Diehl
+%
+%This program is free software: you can redistribute it and/or modify
+%it under the terms of the GNU General Public License as published by
+%the Free Software Foundation, either version 3 of the License, or
+%(at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+
+%You should have received a copy of the GNU General Public License
+%along with this program.  If not, see <http://www.gnu.org/licenses/>.
+\documentclass[11pt,letterpaper]{article}
+
+\input{../template/variables.tex}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lastpage,booktabs}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\coursesemester}
+\lhead{\coursename}
+\rfoot{Page \thepage~of \pageref{LastPage}}
+\lfoot{Last updated: \today}
+
+\usepackage{ifxetex}
+
+\ifxetex
+\usepackage{fontspec}
+\setmainfont{Raleway}
+\fi
+
+\usepackage{pgfplotstable}
+
+\usepackage[
+    type={CC},
+    modifier={by-nc-nd},
+    version={4.0},
+]{doclicense}
+
+\begin{document}
+
+
+\centering
+\pgfplotstabletypeset[
+col sep = comma,
+every head row/.style={before row=\toprule,after row=\midrule},
+every last row/.style={after row=\bottomrule},
+display columns/0/.style={string type},
+display columns/1/.style={string type},
+display columns/2/.style={string type}
+]
+{content.csv}
+
+\doclicenseThis
+\end{document}
