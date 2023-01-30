@@ -4,25 +4,25 @@ Lecture,Topic, Instructor
 3,Practical programming in Python, Diehl
 4,Introduction to Matlab, Cole
 5,Practical programming in Matlab, Cole
-6,Introduction to C++, Diehl
-7,Practical programming in C++, Diehl,
-8,Parallel programming in C++, Diehl
-9,Introduction to data Visualization, Diehl
-10,Introduction to Data Science, Nader
-11,Introduction to Pandas, Nader
-12,Introduction to Machine Learning, Nader
-13,Applications of Machine Learning, Nader
-14,Introduction to distributed programming, Diehl
-15,Introduction to HPC cluster, Diehl
-16,Introduction to LaTeX, Diehl
-17,Introduction to pgfplots and pgfplotstable, Diehl
-18,Introduction to Bibtex, Diehl
-19,Overview of Open Source Software, Diehl
-29,Introduction to Open Science, Diehl
-21,Introdcution to version controlling, Diehl 
-22,Medical Imaging, Kirby
-23,Introduction to curve fitting, Schneiders
-24,Monte Carlo Methods I, Schneiders
-25,Monte Carlo Methods II, Schneiders
-25,
-26,
+6,Introduction to C\texttt{++}, Diehl
+7,Practical programming in C\texttt{++}, Diehl
+8,Parallel programming in C\texttt{++}, Diehl
+9,Pair programming, Diehl
+10,Introduction to data Visualization, Diehl
+11,Introduction to Data Science, Nader
+12,Introduction to Pandas, Nader
+13,Introduction to Machine Learning, Nader
+14,Applications of Machine Learning, Nader
+15,Introduction to distributed programming, Diehl
+16,Introduction to HPC cluster, Diehl
+17,Introduction to \LaTeX, Diehl
+18,Introduction to pgfplots and pgfplotstable, Diehl
+19,Introduction to \BibTeX, Diehl
+20,Overview of Open Source Software, Diehl
+21,Introduction to Open Science, Diehl
+22,Introduction to version controlling, Diehl 
+23,Medical Imaging, Kirby
+24,Introduction to curve fitting, Schneiders
+25,Monte Carlo Methods I, Schneiders
+26,Monte Carlo Methods II, Schneiders
+27,In class course evaluation, Diehl
