@@ -1,28 +1,28 @@
-Lecture,Topic, Instructor
-1,Introduction to Linux and bash, Diehl
-2,Introduction to Python, Diehl
-3,Practical programming in Python, Diehl
-4,Introduction to Matlab, Cole
-5,Practical programming in Matlab, Cole
-6,Introduction to C\texttt{++}, Diehl
-7,Practical programming in C\texttt{++}, Diehl
-8,Parallel programming in C\texttt{++}, Diehl
-9,Pair programming, Diehl
-10,Introduction to data Visualization, Diehl
-11,Introduction to Data Science, Nader
-12,Introduction to Pandas, Nader
-13,Introduction to Machine Learning, Nader
-14,Applications of Machine Learning, Nader
-15,Introduction to distributed programming, Diehl
-16,Introduction to HPC cluster, Diehl
-17,Introduction to \LaTeX, Diehl
-18,Introduction to pgfplots and pgfplotstable, Diehl
-19,Introduction to \BibTeX, Diehl
-20,Overview of Open Source Software, Diehl
-21,Introduction to Open Science, Diehl
-22,Introduction to version controlling, Diehl 
-23,Medical Imaging, Kirby
-24,Introduction to curve fitting, Schneiders
-25,Monte Carlo Methods I, Schneiders
-26,Monte Carlo Methods II, Schneiders
-27,In class course evaluation, Diehl
+Lecture,Topic, Instructor, Date
+1,Introduction to Linux and bash, Diehl, July 3
+2,Introduction to Python, Diehl, July 5
+4,Introduction to Matlab, Cole, July 6
+5,Practical programming in Matlab, Cole, July 7
+3,Practical programming in Python, Diehl, July 10
+6,Introduction to C\texttt{++}, Diehl, July 11
+7,Practical programming in C\texttt{++}, Diehl, July 12
+8,Parallel programming in C\texttt{++}, Diehl, July 13
+9,Introduction to distributed programming, Diehl, July 14
+10,Introduction to Julia, Godoy, July 17
+11,Introduction to Data Science, Nader, July 18
+12,Introduction to Pandas, Nader, July 19,
+13,Introduction to Machine Learning, Nader, July 20
+14,Applications of Machine Learning, Nader, July 21
+15,Introduction to distributed programming, Diehl, July 24
+16,Introduction to HPC cluster, Diehl, July 25
+17,Introduction to \LaTeX, Diehl, July 26
+18,Introduction to pgfplots and pgfplotstable, Diehl, July 27
+19,Introduction to \BibTeX, Diehl, July 28
+20,Overview of Open Source Software, Diehl, July 31
+21,Introduction to Open Science, Diehl, Aug 1
+22,Introduction to version controlling, Diehl , Aug 2
+23,Medical Imaging, Kirby, Aug 3
+24,Introduction to curve fitting, Schneiders, Aug 4
+25,Monte Carlo Methods I, Schneiders,
+26,Monte Carlo Methods II, Schneiders,
+27,In class course evaluation, Diehl,
