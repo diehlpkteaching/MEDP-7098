@@ -10,13 +10,13 @@ Lecture,Topic, Instructor, Date
 9,Introduction to distributed programming, Diehl, July 14
 10,Introduction to Julia, \textcolor{red}{Godoy}, July 17
 11,Introduction to HPC cluster, Diehl, July 18
-12,Introduction to pgfplots and pgfplotstable, Diehl, July 19
-13,Introduction to \LaTeX, Nader, July 20
-14,, Nader, July 21
-15,Introduction to Data Science,\textcolor{red}{Nader}, July 24
-16,Introduction to Pandas, \textcolor{red}{Nader}, July 25
-17,Introduction to Machine Learning,\textcolor{red}{Nader}, July 26
-18,Applications of Machine Learning,\textcolor{red}{Nader}, July 27
+12,Introduction to Data Science,\textcolor{red}{Nader}, July 19
+13,Introduction to Pandas,\textcolor{red}{Nader}, July 20
+14,Introduction to \LaTeX, Diehl, July 21
+15,Introduction to Machine Learning,\textcolor{red}{Nader}, July 24
+16,Applications of Machine Learning,\textcolor{red}{Nader}, July 25
+17,Introduction to pgfplots and pgfplotstable,, July 26
+18,,\textcolor{red}{Nader}, July 27
 19,Introduction to \BibTeX, Diehl, July 28
 20,Overview of Open Source Software, Diehl, July 31
 21,Introduction to Open Science, Diehl, Aug 1
@@ -26,3 +26,4 @@ Lecture,Topic, Instructor, Date
 25,Monte Carlo Methods I, Schneiders,
 26,Monte Carlo Methods II, Schneiders,
 27,In class course evaluation, Diehl,
+
